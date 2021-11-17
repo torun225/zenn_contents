@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  node:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+      args:
+        USER_NAME: zenn_writer
+        GROUP_NAME: zenn_writer
+        USER_UID: 1000
+        USER_GID: 1000
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/home/zenn_writer/contents:cached
+    command: npx zenn preview
