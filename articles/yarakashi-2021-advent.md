@@ -3,7 +3,7 @@ title: "サーバを取り違えて再起動した話"
 emoji: "⚙️"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["運用","監視","冗長","AdventCalendar2021"]
-published: false
+published: true
 ---
 
 この記事は、[本番環境でやらかしちゃった人 Advent Calendar 2021](https://qiita.com/advent-calendar/2021/yarakashi-production)の17日目の記事になります。
