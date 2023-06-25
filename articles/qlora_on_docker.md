@@ -3,7 +3,7 @@ title: "DockerでqLoraを行う方法"
 emoji: "🧠"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AI", "Docker", "LLM"]
-published: false
+published: true
 ---
 
 最近 LLM にはまっているのですが、コンテナ上の jupyter で qLora を行っている記事が見られなかったためメモとして残します。
